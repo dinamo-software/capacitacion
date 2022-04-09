@@ -7,7 +7,7 @@ namespace POO_101
         static void Main(string[] args)
         {
 
-            Figura circulo = new Circulo(0, 1, 10);
+            Figura circulo = new Figura(0, 1, 10);
             Figura circulo2 = new Figura(0, 1, 10);
             Figura triangulo = new Figura(3, 3, 10);
             Figura cuadrado = new Figura(4, 4, 10);
@@ -46,7 +46,7 @@ namespace POO_101
 
     public class Circulo : Figura
     {
-        public Circulo(int alto) : base(0, 1, alto)
+        public Circulo(int diametro) : base(0, 1, diametro)
         {
             
         }
